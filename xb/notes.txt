@@ -1,0 +1,4 @@
+3a0 is ac - byte 5 is fan, byte 6 is compressor
+2ci has pedal position
+610 looks like simple vss
+try diff values in third bit of 2c4 for power steer

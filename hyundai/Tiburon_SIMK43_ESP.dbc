@@ -1,0 +1,162 @@
+VERSION ""
+
+
+NS_ :
+    NS_DESC_
+    CM_
+    BA_DEF_
+    BA_
+    VAL_
+    CAT_DEF_
+    CAT_
+    FILTER
+    BA_DEF_DEF_
+    EV_DATA_
+    ENVVAR_DATA_
+    SGTYPE_
+    SGTYPE_VAL_
+    BA_DEF_SGTYPE_
+    BA_SGTYPE_
+    SIG_TYPE_REF_
+    VAL_TABLE_
+    SIG_GROUP_
+    SIG_VALTYPE_
+    SIGTYPE_VALTYPE_
+    BO_TX_BU_
+    BA_DEF_REL_
+    BA_REL_
+    BA_DEF_DEF_REL_
+    BU_SG_REL_
+    BU_EV_REL_
+    BU_BO_REL_
+    SG_MUL_VAL_
+
+BS_: 
+BU_: Tiburon ECU Traction Control 
+BO_ 809 DME2: 7 ECU
+   SG_ TEMP_ENG : 15|8@0+ (0.75,-48) [-48|142.5] "C" Vector__XXX
+   SG_ AMP_CAN : 23|8@0+ (2,598) [600|1106] "hPa" Vector__XXX
+   SG_ TPS_CAN : 47|8@0+ (0.390625,0) [0|99.2] "%" Vector__XXX
+   SG_ MUL_INFO : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ MUL_CODE : 7|2@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ VB_OFF_ACT_CAN : 31|8@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ ACK_ES_CAN : 39|8@0+ (0.390625,0) [0|99.2] "%" Vector__XXX
+   SG_ ENG_CHR_CAN : 55|8@0+ (0.390625,0) [0|99.2] "%" Vector__XXX
+
+BO_ 790 DME1: 7 ECU
+   SG_ N_ENG : 16|16@1+ (0.15625,0) [0|10000] "rpm" Vector__XXX
+   SG_ TQI_TQR_CAN : 15|8@0+ (0.39,0) [0|100] "%" Vector__XXX
+   SG_ TQI_CAN : 39|8@0+ (0.39,0) [0|100] "%" Vector__XXX
+   SG_ SWI_IGK_CAN : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ F_N_ENG_CAN : 1|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ ACK_TCS_CAN : 2|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ PUC_STAT : 3|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ TQ_COR_STAT_CAN : 5|2@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ RLY_AC_CAN : 6|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ F_SUB_TQI_CAN : 7|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ TQ_LOSS_CAN : 47|8@0+ (0.39,0) [0|100] "%" Vector__XXX
+   SG_ ERR_AMT_CAN : 48|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ ERR_AMT_CAN : 49|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ TQI_MAF_CAN : 56|8@0+ (0.39,0) [0|100] "%" Vector__XXX
+
+BO_ 339 ASC1: 7 Traction
+   SG_ VSS : 23|8@0+ (0.95439,0) [0|350] "kmh" Vector__XXX
+   SG_ MD_INC_ASC : 31|8@0+ (0.390625,0) [0|99.6094] "%" Vector__XXX
+   SG_ TCS_REQ_CAN : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ MSR_C_REQ_CAN : 1|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ TCS_PAS : 2|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ TCS_GSC : 3|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ ABS_DIAG : 6|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ ABS_DIAG14 : 7|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ TCS_DEF : 8|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ TCS_CTL : 9|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ ABS_ACT : 10|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ EBD_DEF : 11|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ ESP_PAS : 12|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ ESP_DEF : 13|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ ESP_CTL : 14|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ TCS_MFRN : 15|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ TQI_MSR_CAN : 39|8@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ TQI_SLW_TCS_CAN : 47|8@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 496 ASC2: 7 Traction
+   SG_ VSS1 : 7|8@0+ (0.95439,0) [0|350] "kmh" Vector__XXX
+   SG_ VSS2 : 15|8@0+ (0.95439,0) [0|350] "kmh" Vector__XXX
+   SG_ VSS3 : 23|8@0+ (0.95439,0) [0|350] "kmh" Vector__XXX
+   SG_ VSS4 : 31|8@0+ (0.95439,0) [0|350] "kmh" Vector__XXX
+
+BO_ 1349 DME4: 8 ECU
+   SG_ FCO : 8|16@1+ (0.128,0) [0|8389] "microliters" Vector__XXX
+   SG_ IM_AUTHEN_CAN : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ L_MIL_CAN : 1|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ IM_STAT_CAN : 2|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ AMP_CAN : 7|5@0+ (25.4,0) [0|1] "mmHg" Vector__XXX
+   SG_ VB : 31|8@0+ (0.1,0) [0|99] "v" Vector__XXX
+
+BA_DEF_ BO_ "GenMsgBackgroundColor" STRING ;
+BA_DEF_ BO_ "GenMsgForegroundColor" STRING ;
+BA_DEF_ BO_ "matchingcriteria" INT 0 0;
+BA_DEF_ BO_ "filterlabeling" INT 0 0;
+BA_DEF_ BO_ "matchingcriteria" INT 0 0;
+BA_DEF_ BO_ "filterlabeling" INT 0 0;
+BA_DEF_ BO_ "matchingcriteria" INT 0 0;
+BA_DEF_ BO_ "filterlabeling" INT 0 0;
+BA_DEF_ BO_ "matchingcriteria" INT 0 0;
+BA_DEF_ BO_ "filterlabeling" INT 0 0;
+BA_DEF_ BO_ "matchingcriteria" INT 0 0;
+BA_DEF_ BO_ "filterlabeling" INT 0 0;
+BA_DEF_ BO_ "matchingcriteria" INT 0 0;
+BA_DEF_ BO_ "filterlabeling" INT 0 0;
+BA_DEF_ BO_ "matchingcriteria" INT 0 0;
+BA_DEF_ BO_ "filterlabeling" INT 0 0;
+BA_DEF_ BO_ "matchingcriteria" INT 0 0;
+BA_DEF_ BO_ "filterlabeling" INT 0 0;
+BA_ "GenMsgForegroundColor" BO_ 339 "#000000";
+BA_ "GenMsgForegroundColor" BO_ 496 "#000000";
+BA_DEF_DEF_ "GenMsgBackgroundColor" "#ffffff";
+BA_DEF_DEF_ "GenMsgForegroundColor" "#000000";
+BA_DEF_DEF_ "matchingcriteria" 0;
+BA_DEF_DEF_ "filterlabeling" 0;
+BA_DEF_DEF_ "matchingcriteria" 0;
+BA_DEF_DEF_ "filterlabeling" false;
+CM_ BU_ Tiburon "Default node if none specified";
+CM_ SG_ 809 TEMP_ENG "Engine_Coolant_Temperature_in_Celsius";
+CM_ SG_ 809 AMP_CAN "Ambient_Pressure_in_hPa";
+CM_ SG_ 809 TPS_CAN "Accelerator_Pedal_Position_in_%_of_PVS_MAX";
+CM_ SG_ 809 MUL_INFO "Multiplexed_information_see_opengk.org";
+CM_ SG_ 809 MUL_CODE "Identification_of_MUL_INFO";
+CM_ SG_ 809 VB_OFF_ACT_CAN "Detection_of_battery_disconnection";
+CM_ SG_ 809 ACK_ES_CAN "Acknowledgment_engine_stopped";
+CM_ SG_ 809 ENG_CHR_CAN "Engine_characteristic";
+CM_ SG_ 790 N_ENG "Engine speed in rpm";
+CM_ SG_ 790 ACK_TCS_CAN "Acknowledement_TCS";
+CM_ SG_ 790 PUC_STAT "Engine_in_fuel_cut_off";
+CM_ SG_ 790 TQ_COR_STAT_CAN "Status,_torque_intervention";
+CM_ SG_ 790 RLY_AC_CAN "Engine_in_fuel_cut_off";
+CM_ SG_ 790 F_SUB_TQI_CAN "Activation,_air_conditioner_compressor_relay";
+CM_ SG_ 790 TQ_LOSS_CAN "Engine_Torque_Loss_in_percentage_of_C_TQ_STND";
+CM_ SG_ 790 TQI_MAF_CAN "Theoretical_engine_torque_in_percentage_of_C_TQ_STND_after_charge_intervention";
+CM_ SG_ 339 VSS "Vehicle_speed_signal";
+CM_ SG_ 339 MD_INC_ASC "Torque_intervention_for_ASC_function";
+CM_ SG_ 339 TCS_REQ_CAN "Request_TCS";
+CM_ SG_ 339 MSR_C_REQ_CAN "Request_for_MSR_functions";
+CM_ SG_ 339 TCS_PAS "TCS_disabled_by_user";
+CM_ SG_ 339 TCS_GSC "TCS_gear_shift_characteristics";
+CM_ SG_ 339 ABS_DIAG "ABS_TCS/ESP_diagnostic_mode_indication";
+CM_ SG_ 339 ABS_DIAG14 "ABS_defective_indication";
+CM_ SG_ 339 TCS_DEF "TCS_defective_indication";
+CM_ SG_ 339 TCS_CTL "TCS_control_indication";
+CM_ SG_ 339 ABS_ACT "ABS_control_indication";
+CM_ SG_ 339 EBD_DEF "EBD_defective_indication";
+CM_ SG_ 339 ESP_PAS "ESP_disabled_by_user";
+CM_ SG_ 339 ESP_DEF "ESP_defective";
+CM_ SG_ 339 ESP_CTL "ESP_control_indication";
+CM_ SG_ 339 TCS_MFRN "TCS_manufacturer_information";
+CM_ SG_ 339 TQI_MSR_CAN "Reserved_for_MSR";
+CM_ SG_ 339 TQI_SLW_TCS_CAN "Slow_torque_intervention_for_TCS";
+CM_ SG_ 1349 FCO "Fuel_consumption";
+CM_ SG_ 1349 IM_AUTHEN_CAN "Authentication_immobilizer";
+CM_ SG_ 1349 L_MIL_CAN "CEL";
+CM_ SG_ 1349 IM_STAT_CAN "Status_of_immobilizer";
+CM_ SG_ 1349 AMP_CAN "Atmospheric_pressure";
+CM_ SG_ 1349 VB "Battery_voltage";

@@ -1,0 +1,34 @@
+gt350 notes
+(1732221932.991680) can0 204#C0007D01FB000000 - oil press and rpm
+
+(1737142294.253619) can0 156#8A88000003000000 - coolant and oil temp
+(1737142294.156466) can0 421#0000300000004A00 - check engine and wrench
+
+
+
+
+47 - pats stuff
+156 - coolant and oil temp
+165 - engine brake data
+166 - stop start
+167 - something about torque? and regen?
+171 - something about displaying gears
+178 - engine climate, ambient air, dyno mode
+179 - fuel flow, odometer stuff, oil life lol, AC REQ AND OUTPUT
+200 - more torque
+202 - speeds?
+204 - accpedal
+230 - trans temp
+3c3 - arpim dont send
+3e2 - apim dont send
+3ea - probably apim
+421 - flex fuel and oil press warning and cel and wrench
+424 - fuel level display says te defi
+42d - grill shutter, obd warump, engine load, accpedal, intake air
+42f - clutch pedal pos
+439 - 
+43d- some amps and alternator stuff DUH
+43e - fuel pump power says
+447
+5e2 - b
+

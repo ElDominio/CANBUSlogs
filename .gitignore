@@ -1,0 +1,2 @@
+# Ignore all Lua files to prevent pushing them to GitHub
+*.lua
